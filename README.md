@@ -8,8 +8,8 @@ Ridiculously niche use-case. Produces a file containing all base positions and t
 - Pandas
 
 ### How
-depthget.py -i <directory containing snippy output> -l <length of reference genome in bp> -o <output directory>
-  
+depthget.py -i directory_containing_snippy_output -l length_of_ref_genome_in_bp -o output_directory
+
 ### Quirks
 You can't invoke it from the input directory. It's probably also best to put your output directory outside of the input directory. ¯\\_(ツ)_/¯
 
