@@ -13,5 +13,7 @@ depthget.py -i directory_containing_snippy_output -l length_of_ref_genome_in_bp 
 ### Quirks
 You can't invoke it from the input directory. It's probably also best to put your output directory outside of the input directory. ¯\\_(ツ)_/¯
 
+If there is 0 coverage across all bases, it will throw a fit.
+
 ### Why?
 So we can get information on gene coverage from a very large genomic dataset. 
